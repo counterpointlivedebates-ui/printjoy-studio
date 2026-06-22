@@ -6,8 +6,8 @@ export const products = [
     price: 4.50,
     category: 'Wall Art',
     colors: ['Sage Green', 'Warm Cream', 'Terracotta'],
-    image: '/src/assets/products/wall-art-botanical-background.png', // Placeholder link
-    lemonSqueezyUrl: '#', // To be filled later
+    image: '/src/assets/products/wall-art-botanical-affirmation-001.png',
+    lemonSqueezyUrl: import.meta.env.VITE_LS_WALL_ART_URL || '#',
   },
   {
     id: 'clean-minimal-weekly-planner',
@@ -16,8 +16,8 @@ export const products = [
     price: 5.00,
     category: 'Planners',
     colors: ['Soft Blush', 'Warm Gray', 'Cream'],
-    image: '/src/assets/products/planner-background-element.png',
-    lemonSqueezyUrl: '#',
+    image: '/src/assets/products/weekly-planner-clean-minimal-001.png',
+    lemonSqueezyUrl: import.meta.env.VITE_LS_PLANNER_URL || '#',
   },
   {
     id: 'monthly-budget-tracker',
@@ -26,8 +26,8 @@ export const products = [
     price: 5.00,
     category: 'Finance',
     colors: ['Navy', 'Gold', 'Teal'],
-    image: '/src/assets/products/budget-tracker-background.png',
-    lemonSqueezyUrl: '#',
+    image: '/src/assets/products/budget-tracker-modern-001.png',
+    lemonSqueezyUrl: import.meta.env.VITE_LS_BUDGET_URL || '#',
   },
   {
     id: 'monthly-habit-tracker-grid',
@@ -36,8 +36,8 @@ export const products = [
     price: 4.00,
     category: 'Habits',
     colors: ['Sage Green', 'Blush Pink', 'Warm Gray'],
-    image: '/src/assets/products/wall-art-botanical-background.png', // Reusing placeholder
-    lemonSqueezyUrl: '#',
+    image: '/src/assets/products/habit-tracker-monthly-001.png',
+    lemonSqueezyUrl: import.meta.env.VITE_LS_HABIT_URL || '#',
   },
   {
     id: 'weekly-meal-planner-grocery-list',
@@ -46,7 +46,7 @@ export const products = [
     price: 4.50,
     category: 'Kitchen',
     colors: ['Terracotta', 'Olive Green', 'Warm Brown'],
-    image: '/src/assets/products/planner-background-element.png', // Reusing placeholder
-    lemonSqueezyUrl: '#',
+    image: '/src/assets/products/meal-planner-weekly-001.png',
+    lemonSqueezyUrl: import.meta.env.VITE_LS_MEAL_URL || '#',
   },
 ];

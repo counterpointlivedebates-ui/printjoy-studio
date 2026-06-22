@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-sage-light: #A7BCA4;
+  --color-sage: #8FA98B;
+  --color-sage-dark: #7A8B6B;
+  
+  --color-cream-light: #FEFBF6;
+  --color-cream: #FDF8F0;
+  --color-cream-dark: #F5E6D3;
+  
+  --color-terracotta-light: #E0A190;
+  --color-terracotta: #D4836D;
+  --color-terracotta-dark: #B06552;
+  
+  --color-blush-light: #FAE3D9;
+  --color-blush: #F5D6C6;
+  --color-blush-dark: #E8B4A2;
+  
+  --color-navy-light: #3D4F63;
+  --color-navy: #2D3A4A;
+  --color-navy-dark: #1D252E;
+  
+  --color-gold-light: #D9C294;
+  --color-gold: #C9A96E;
+  --color-gold-dark: #A6864C;
+  
+  --color-teal-light: #8CB6B3;
+  --color-teal: #6B9E9A;
+  --color-teal-dark: #4F7C78;
+  
+  --color-olive-light: #97A589;
+  --color-olive: #7A8B6B;
+  --color-olive-dark: #5D6B51;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+:root {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}

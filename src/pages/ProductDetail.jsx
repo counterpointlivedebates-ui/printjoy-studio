@@ -98,7 +98,7 @@ export default function ProductDetail() {
 
             <div className="mt-auto pt-8 border-t border-cream-dark">
               <a 
-                href={product.lemonSqueezyUrl}
+                href={product.kofiUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-sage hover:bg-sage-dark text-white py-5 rounded-2xl font-bold text-xl transition-all shadow-lg shadow-sage/20 flex items-center justify-center gap-3"
@@ -107,7 +107,7 @@ export default function ProductDetail() {
                 <Check size={24} />
               </a>
               <p className="text-center text-navy/50 text-xs mt-4">
-                Secure checkout powered by Lemon Squeezy
+                Secure checkout powered by Ko-fi
               </p>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default function ProductCard({ product }) {
         <div className="flex items-center justify-between mt-auto">
           <span className="text-xl font-bold text-navy">${product.price.toFixed(2)}</span>
           <a 
-            href={product.lemonSqueezyUrl}
+            href={product.kofiUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 bg-sage hover:bg-sage-dark text-white px-4 py-2 rounded-lg font-medium transition-colors text-sm"

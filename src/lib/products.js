@@ -7,7 +7,7 @@ export const products = [
     category: 'Wall Art',
     colors: ['Sage Green', 'Warm Cream', 'Terracotta'],
     image: '/src/assets/products/wall-art-botanical-affirmation-001.png',
-    lemonSqueezyUrl: import.meta.env.VITE_LS_WALL_ART_URL || '#',
+    kofiUrl: import.meta.env.VITE_KOFI_WALL_ART_URL || '#',
   },
   {
     id: 'clean-minimal-weekly-planner',
@@ -17,7 +17,7 @@ export const products = [
     category: 'Planners',
     colors: ['Soft Blush', 'Warm Gray', 'Cream'],
     image: '/src/assets/products/weekly-planner-clean-minimal-001.png',
-    lemonSqueezyUrl: import.meta.env.VITE_LS_PLANNER_URL || '#',
+    kofiUrl: import.meta.env.VITE_KOFI_PLANNER_URL || '#',
   },
   {
     id: 'monthly-budget-tracker',
@@ -27,7 +27,7 @@ export const products = [
     category: 'Finance',
     colors: ['Navy', 'Gold', 'Teal'],
     image: '/src/assets/products/budget-tracker-modern-001.png',
-    lemonSqueezyUrl: import.meta.env.VITE_LS_BUDGET_URL || '#',
+    kofiUrl: import.meta.env.VITE_KOFI_BUDGET_URL || '#',
   },
   {
     id: 'monthly-habit-tracker-grid',
@@ -37,7 +37,7 @@ export const products = [
     category: 'Habits',
     colors: ['Sage Green', 'Blush Pink', 'Warm Gray'],
     image: '/src/assets/products/habit-tracker-monthly-001.png',
-    lemonSqueezyUrl: import.meta.env.VITE_LS_HABIT_URL || '#',
+    kofiUrl: import.meta.env.VITE_KOFI_HABIT_URL || '#',
   },
   {
     id: 'weekly-meal-planner-grocery-list',
@@ -47,6 +47,6 @@ export const products = [
     category: 'Kitchen',
     colors: ['Terracotta', 'Olive Green', 'Warm Brown'],
     image: '/src/assets/products/meal-planner-weekly-001.png',
-    lemonSqueezyUrl: import.meta.env.VITE_LS_MEAL_URL || '#',
+    kofiUrl: import.meta.env.VITE_KOFI_MEAL_URL || '#',
   },
 ];
